@@ -1,1 +1,44 @@
 # RenderPerf
+
+Forked from Jetbrains Runtime (OpenJDK derived):
+https://github.com/JetBrains/JetBrainsRuntime
+
+<JBR_PATH>/test/jdk/performance/client/RenderPerfTest/
+
+
+-----------------------------------------------------------------------
+Introduction
+-----------------------------------------------------------------------
+
+RenderPerfTest is a set of on-screen rendering microbenchmarks  to
+analyze the  performance of Java2D graphical primitives rendering
+
+-----------------------------------------------------------------------
+How To Compile
+-----------------------------------------------------------------------
+
+#> cd RenderPerfTest
+
+The benchmark can be compiled by using either ant:
+
+#> ant
+
+or gnumake (assuming there's 'javac' in the path):
+
+#> gnumake
+
+The jar files will be generated into RenderPerfTest/dist directory.
+
+-----------------------------------------------------------------------
+How To Run RenderPerfTest
+-----------------------------------------------------------------------
+Run all tests
+#> ant run
+or
+#> java -jar dist/RenderPerfTest.jar
+
+Run particular test cases
+
+#> java -jar dist/RenderPerfTest.jar WhiteTextGray ...
+
+
