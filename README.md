@@ -15,6 +15,7 @@ Introduction
 RenderPerfTest is a set of on-screen rendering microbenchmarks  to
 analyze the  performance of Java2D graphical primitives rendering
 
+
 -----------------------------------------------------------------------
 How To Compile
 -----------------------------------------------------------------------
@@ -33,6 +34,7 @@ or gnumake (assuming there's 'javac' in the path):
 ```
 The jar files will be generated into RenderPerfTest/dist directory.
 
+
 -----------------------------------------------------------------------
 How To Run RenderPerfTest
 -----------------------------------------------------------------------
@@ -50,6 +52,7 @@ or
 #> java -jar dist/RenderPerfTest.jar WhiteTextGray ...
 ```
 
+
 -----------------------------------------------------------------------
 How To Get Help on RenderPerf
 -----------------------------------------------------------------------
@@ -57,8 +60,9 @@ How To Get Help on RenderPerf
 ```
 #> java -jar dist/RenderPerfTest.jar -h
 
+Using GraphicsConfiguration(s): [0:0][...] 
 ##############################################################
-# RenderPerfTest 2023.11
+# Render_Perf_Test 2023.12
 ##############################################################
 # java ... RenderPerfTest <args>
 #
@@ -79,6 +83,6 @@ How To Get Help on RenderPerf
 # -n<number> : set number of primitives (default: 1000)
 # -r<number> : set number of test repeats (default: 1)
 #
-# Test arguments: ArgbSurfaceBlitImage ArgbSwBlitImage BgrSurfaceBlitImage BgrSwBlitImage ClipFlatBox ClipFlatBoxAA ClipFlatOval ClipFlatOvalAA FlatBox FlatBoxAA FlatOval FlatOvalAA FlatOval_XOR FlatQuad FlatQuadAA Image ImageAA Image_XOR LargeTextGray LargeTextLCD LargeTextNoAA LinGrad3RotatedOval LinGrad3RotatedOvalAA LinGradRotatedOval LinGradRotatedOvalAA Lines LinesAA Lines_XOR RadGrad3RotatedOval RadGrad3RotatedOvalAA RotatedBox RotatedBoxAA RotatedBox_XOR RotatedOval RotatedOvalAA TextGray TextLCD TextLCD_XOR TextNoAA TextNoAA_XOR TextWiredQuadAABat TextWiredQuadAAMix TextWiredQuadBat TextWiredQuadMix VolImage VolImageAA VolImageFlatBoxAABat VolImageFlatBoxAAMix VolImageFlatBoxBat VolImageFlatBoxMix VolImageTextNoAABat VolImageTextNoAAMix VolImageWiredQuadAABat VolImageWiredQuadAAMix VolImageWiredQuadBat VolImageWiredQuadMix WhiteTextGray WhiteTextLCD 
-WhiteTextNoAA WiredBox WiredBoxAA WiredBubbles WiredBubblesAA WiredQuad WiredQuadAA
+# Test arguments: ArgbSurfaceBlitImage ArgbSwBlitImage BgrSurfaceBlitImage BgrSwBlitImage ClipFlatBox ClipFlatBoxAA ClipFlatOval ClipFlatOvalAA FlatBox FlatBoxAA FlatOval FlatOvalAA FlatOval_XOR FlatQuad FlatQuadAA Image ImageAA Image_XOR LargeTextGray LargeTextLCD LargeTextNoAA LinGrad3RotatedOval LinGrad3RotatedOvalAA LinGradRotatedOval LinGradRotatedOvalAA Lines LinesAA Lines_XOR RadGrad3RotatedOval RadGrad3RotatedOvalAA RotatedBox RotatedBoxAA RotatedBox_XOR RotatedOval RotatedOvalAA TextGray TextLCD TextLCD_XOR TextNoAA TextNoAA_XOR TextWiredQuadAABat TextWiredQuadAAMix TextWiredQuadBat TextWiredQuadMix VolImage VolImageAA VolImageFlatBoxAABat VolImageFlatBoxAAMix VolImageFlatBoxBat VolImageFlatBoxMix VolImageTextNoAABat VolImageTextNoAAMix VolImageWiredQuadAABat VolImageWiredQuadAAMix VolImageWiredQuadBat VolImageWiredQuadMix WhiteTextGray WhiteTextLCD WhiteTextNoAA WiredBox WiredBoxAA WiredBubbles WiredBubblesAA WiredQuad WiredQuadAA 
 ```
+
